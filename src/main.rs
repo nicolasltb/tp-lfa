@@ -184,7 +184,7 @@ fn main() {
     let args: Vec<String> = env::args().collect();
 
     if args.len() != 4 {
-        eprintln!("Usage: cargo run description_file.txt input_word output_file.txt");
+        eprintln!("Usage: ./tp-lfa description_file.txt input_word output_file.txt");
         std::process::exit(1);
     }
 
